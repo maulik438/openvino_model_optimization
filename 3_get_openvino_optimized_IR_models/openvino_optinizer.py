@@ -3,7 +3,7 @@
 # Created Date   : May 3, 2021
 # Python Version : 3.6
 # =============================================================================
-"""This script get openvino optimized model"""
+"""This script is to get openvino optimized model"""
 # =============================================================================
 # Import Required Libraries
 # =============================================================================

@@ -1,3 +1,12 @@
+# =============================================================================
+# Created By     : Maulik Pandya
+# Created Date   : May 3, 2021
+# Python Version : 3.6
+# =============================================================================
+"""This script is to infer openvino optimized model"""
+# =============================================================================
+# Import Required Libraries
+# =============================================================================
 import copy
 import sys
 from PIL import Image
@@ -10,10 +19,6 @@ from keras.utils.np_utils import to_categorical
 
 # from keras.utils import to_categorical
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
-
-
-
-
 
 
 try:
