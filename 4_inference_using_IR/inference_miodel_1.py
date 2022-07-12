@@ -57,9 +57,9 @@ print(nq)
 exec_net = ie.load_network(network=net, device_name=d_name, num_requests=nq)
 
 
-assert len(net.inputs.keys()) == 1
+assert len(net.input_info.keys()) == 1
 assert len(net.outputs) == 1
-input_blob = next(iter(net.inputs))
+input_blob = next(iter(net.input_info))
 out_blob = next(iter(net.outputs))
 del net
 
