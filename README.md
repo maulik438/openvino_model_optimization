@@ -14,9 +14,7 @@ Complete workflow can be performed into following four steps:
 * Get OpenVino optimized intermediate representation (IR) model
 * Inference using OpenVino IR model
 
-<img width="1440" alt="Example Post" src=https://www.intel.com/content/dam/develop/public/us/en/images/diagrams-infographics/diagram-using-ov-full-16x9.jpg.rendition.intel.web.978.550.jpg>
-
 Here, we are using MNIST dataset on this exercise.
-<img width="1440" alt="Example Post" src="https://upload.wikimedia.org/wikipedia/commons/2/27/MnistExamples.png">
+<img width="800" alt="Example Post" src="https://upload.wikimedia.org/wikipedia/commons/2/27/MnistExamples.png">
 
 Check out my [blog](https://maulikpandya1.medium.com/intel-openvino-toolkit-inference-engine-part-1-2-2a87d8db2999) for detailed explanation.
